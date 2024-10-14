@@ -1,34 +1,69 @@
 # Setup Guide
 
-This guide will walk you through the process of setting up Redis, MySQL, and DVWA on your local environment. We will cover the installation, startup instructions, and provide default credentials for each service.
+This guide will walk you through the process of setting up Redis, MySQL, and Apache on your local environment. We will cover the installation, startup instructions, and provide default credentials for each service.
 
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Redis Setup](#redis-setup)
   - [Starting Redis](#starting-redis)
-  - [Redis Credentials](#redis-credentials)
 - [MySQL Setup](#mysql-setup)
   - [Starting MySQL](#starting-mysql)
   - [MySQL Credentials](#mysql-credentials)
-- [DVWA Setup](#dvwa-setup)
-  - [Starting DVWA](#starting-dvwa)
-  - [DVWA Credentials](#dvwa-credentials)
+- [Apache Setup](#apache-setup)
+  - [Starting Apache](#starting-apache)
+  - [Apache Credentials](#apache-credentials)
 
 ## Prerequisites
 
 Ensure that you have the following installed on your system:
 
-- Docker
-- Docker Compose
-
-Alternatively, you can install Redis, MySQL, and DVWA manually if not using Docker.
+- Virtual Box
 
 ## Redis Setup
 
 ### Starting Redis
 
-If you are using Docker, you can start Redis with the following command:
+You can start Redis with the following command:
 
-```bash
-docker run --name redis-server -d -p 6379:6379 redis
+- Go to directory `C:/Program Files/Redis`.
+- Open file redis-cli.exe.
+- Run commands `shutdown`.
+- Open powershell and Go to folder `C:/Program Files/Redis`.
+- And run command `redis-server --protected-mode no`.
+- And the redis running on port 6379.
+
+## Mysql Setup
+
+### Starting Mysql
+
+You can start Mysql with the following command:
+
+- Using XAMPP Application.
+- And start the mysql.
+
+### Mysql Credentials
+
+```
+username: root
+password: <blank>
+```
+
+## Apache Setup
+
+### Starting Apache
+
+You can start Apache with the following command:
+
+- Using XAMPP Application.
+- And start the apache.
+
+### Apache Credentials
+
+- Visit `https://localhost/DVWA/login.php`.
+```
+username: admin
+password: password
+```
+
+---
