@@ -2,6 +2,8 @@
 
 This guide will walk you through the process of setting up Redis, MySQL, and Apache on your local environment. We will cover the installation, startup instructions, and provide default credentials for each service.
 
+Link: [Google Drive](https://drive.google.com/file/d/1mIl4z41nK8X0GHUZ-Sy8LC1fumUTHxPv/view?usp=sharing)
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
