@@ -40,7 +40,7 @@ You can start Redis with the following command:
 You can start Mysql with the following command:
 
 - Using XAMPP Application.
-- And start the mysql.
+- And start the Mysql.
 
 ### Mysql Credentials
 
@@ -56,7 +56,7 @@ password: <blank>
 You can start Apache with the following command:
 
 - Using XAMPP Application.
-- And start the apache.
+- And start the Apache.
 
 ### Apache Credentials
 
